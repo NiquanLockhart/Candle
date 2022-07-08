@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv("https://github.com/NiquanLockhart/Candle/blob/master/SPY.csv")
+data = pd.read_csv("/Users/niquanlockhart/PycharmProjects/pythonProject5/SPY.csv")
 import plotly.graph_objects as go
 figure = go.Figure(data=[go.Candlestick(x=data["Date"],
                                         open=data["Open"],
